@@ -1,0 +1,106 @@
+.texte a {
+    padding: 13px 40px;
+    border-radius: 25px;
+    color: $whiteText;
+    background-image: $btncolor;
+    margin-left: 60px;
+    font-family: $poppins;
+    margin-top: 30px;
+    display: inline-block;
+    text-decoration: $textNone;
+}
+
+.RightText a {
+    font-size: 12px;
+    margin: 30.7px 6.4px 5.2px 0.1px;
+    padding: 16px 52.2px 15.4px 52px;
+    border-radius: 25px;
+    background-image: $btncolor;
+    color: $whiteText;
+    font-family: $poppins;
+    margin-left: $marginLeft2;
+    display: inline-block;
+    text-decoration: $textNone;
+}
+
+.offers a {
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 7px 18px;
+    border-radius: 25px;
+    background-image: $btncolor;
+    color: $whiteText;
+    font-family: $poppins;
+    margin-left: 190px;
+    margin-right: 40px;
+    text-decoration: $textNone;
+}
+
+.blueBtn {
+    font-size: 12px;
+    margin-top: 40px;
+    padding: 14px 40px;
+    border-radius: 25px;
+    background-image: $btncolor;
+    color: $whiteText;
+    font-family: $poppins;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 170px;
+    text-decoration: $textNone;
+}
+
+.blueBtn2 {
+    font-size: 12px;
+    padding: 14px 40px;
+    border-radius: 25px;
+    background-image: $btncolor;
+    color: $whiteText;
+    font-family: $poppins;
+    margin-left: 26px;
+    width: 170px;
+    text-decoration: $textNone;
+}
+
+.whiteBtn {
+    font-size: 12px;
+    margin-top: 40px;
+    padding: 14px 40px;
+    border-radius: 25px;
+    border: solid 1px $bluePrice;
+    color: $firstTitle;
+    font-family: $poppins;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 170px;
+    text-decoration: $textNone;
+}
+
+@media(max-width: 600px) {
+    #whatWeOffer {
+        #boxes {
+            .offers a {
+                width: 100px;
+            }
+        }
+    }
+    #newsletter {
+        .blueBtn2 {
+            margin-left: 0;
+            display: inline-block;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media(max-width: 425px) {
+    #whatWeOffer {
+        #boxes {
+            .offers a {
+                width: 100px;
+            }
+        }
+    }
+}

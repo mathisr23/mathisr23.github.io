@@ -1,0 +1,67 @@
+#whoWeAre {
+    display: $flex;
+    .leftImg {
+        margin-left: 115px;
+    }
+    .RightText {
+        background-image: url(../../img/background-we-are.png);
+        width: 100%;
+        h3 {
+            font-family: $poppins;
+            font-size: $smallFont;
+            color: $skyblueTitles;
+            font-weight: $normalFont;
+            margin-top: 67px;
+            margin-left: $marginLeft2;
+        }
+        h2 {
+            font-size: $bigFont;
+            color: $firstTitle;
+            font-family: $poppins;
+            margin-left: $marginLeft2;
+        }
+        p {
+            width: 533px;
+            font-size: 16px;
+            color: $littleText;
+            font-family: $poppins;
+            line-height: 1.63;
+            padding-top: 20px;
+            margin-left: $marginLeft2;
+        }
+    }
+}
+
+@media(max-width: 1075px) {
+    #whoWeAre {
+        .leftImg {
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    #whoWeAre {
+        .RightText {
+            p {
+                width: 75%;
+            }
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    #whoWeAre {
+        .RightText {
+            h3 {
+                margin-left: 50px;
+            }
+            h2 {
+                margin-left: 50px;
+            }
+            p {
+                margin-left: 50px;
+            }
+        }
+    }
+}

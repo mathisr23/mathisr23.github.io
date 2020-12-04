@@ -1,0 +1,92 @@
+#forBusiness {
+    display: $flex;
+    padding-bottom: 50px;
+    .rs {
+        padding-top: 150px;
+        padding-left: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        li {
+            padding-top: 35px;
+            list-style: none;
+        }
+        hr {
+            background: $btncolor;
+            width: 3px;
+            height: 29px;
+            border: none;
+        }
+    }
+    .texte {
+        h2 {
+            font-family: $poppins;
+            font-size: 50px;
+            padding-left: 60px;
+            margin-top: 145px;
+            color: $firstTitle;
+            font-weight: $normalFont;
+        }
+        h1 {
+            font-family: $poppins;
+            font-size: 74px;
+            padding-left: 60px;
+            color: $firstTitle;
+            font-weight: $boldFont;
+            width: 150%;
+        }
+        p {
+            font-family: $poppins;
+            font-size: 16px;
+            font-weight: 300;
+            padding-left: 60px;
+            color: $littleText;
+            line-height: 1.56;
+        }
+    }
+    .img {
+        padding-left: 200px;
+        width: 75%;
+    }
+    .mouse {
+        padding: 19.6px 26.4px 19.2px 26.2px;
+        width: 80px;
+        border-radius: 50%;
+        box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+        background-color: $whiteText;
+    }
+}
+
+@media(max-width: 1075px) {
+    #forBusiness {
+        .img {
+            display: none;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    #forBusiness {
+        .texte {
+            h1 {
+                width: 75%;
+            }
+        }
+    }
+}
+
+@media(max-width: 425px) {
+    #forBusiness {
+        .rs {
+            padding-left: 20px;
+        }
+        .texte {
+            h2 {
+                font-size: 30px;
+            }
+            h1 {
+                font-size: 50px;
+            }
+        }
+    }
+}

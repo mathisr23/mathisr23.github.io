@@ -1,0 +1,89 @@
+#whatWeOffer {
+    background-image: url(../../img/background-service.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    .ourservices {
+        h3 {
+            margin-top: 150px;
+            margin-left: $marginLeft;
+            color: $skyblueTitles;
+            font-family: $poppins;
+            font-size: $mediumFont;
+            font-weight: $normalFont;
+        }
+        h2 {
+            margin-left: $marginLeft;
+            color: $firstTitle;
+            font-family: $poppins;
+            font-size: $bigFont;
+        }
+    }
+    #boxes {
+        display: $flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 130px;
+        .offers {
+            padding: 32px 20px 32px 25px;
+            display: $flex;
+            flex-direction: column;
+            width: 368px;
+            height: 410px;
+            border-radius: 36px;
+            box-shadow: 0 10px 20px 0 rgba(63, 59, 119, 0.301);
+            margin-top: 100px;
+            background-color: $whiteText;
+            img {
+                display: $flex;
+                align-self: center;
+            }
+            h4 {
+                font-family: $poppins;
+                font-size: 18px;
+                color: $firstTitle;
+                margin-top: $marginTopBoxes;
+                font-weight: 600;
+                margin-left: $marginBoxes;
+            }
+            p {
+                font-family: $lato;
+                margin-left: $marginBoxes;
+                font-size: 15px;
+                font-weight: $normalFont;
+                margin-top: $marginTopBoxes;
+                height: 150px;
+            }
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    #whatWeOffer {
+        background-image: none;
+        .ourservices {
+            h3 {
+                margin-left: 100px;
+            }
+            h2 {
+                margin-left: 100px;
+            }
+        }
+        #boxes {
+            justify-content: center;
+            align-self: center;
+        }
+    }
+}
+
+@media(max-width: 425px) {
+    #whatWeOffer {
+        .ourservices {
+            h3 {
+                margin-left: 50px;
+            }
+            h2 {
+                margin-left: 50px;
+            }
+        }
+    }
+}

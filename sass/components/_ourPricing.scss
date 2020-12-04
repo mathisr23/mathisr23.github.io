@@ -1,0 +1,88 @@
+#ourPricing {
+    margin-top: 284px;
+    background-color: $purple;
+    padding-bottom: 97px;
+    .pricing {
+        h4 {
+            display: $flex;
+            justify-content: center;
+            font-family: $poppins;
+            font-size: $smallFont;
+            font-weight: $normalFont;
+            color: $skyblueTitles;
+            padding-top: 90px;
+        }
+        h2 {
+            display: $flex;
+            justify-content: center;
+            padding-top: 10px;
+            color: $firstTitle;
+            font-size: $bigFont;
+            font-family: $poppins;
+        }
+    }
+    #allPackage {
+        display: $flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 130px;
+        .package {
+            display: $flex;
+            flex-direction: column;
+            width: 370px;
+            height: 463px;
+            border-radius: 36px;
+            box-shadow: 0 10px 20px 0 rgba(63, 59, 119, 0.301);
+            margin-top: 60px;
+            background-color: $whiteText;
+            padding: 0 40px;
+            h4 {
+                padding-top: 57px;
+                font-size: 28px;
+                font-weight: $normalFont;
+                font-family: $poppins;
+                display: flex;
+                justify-content: center;
+            }
+            p:first-of-type {
+                font-family: $poppins;
+                text-align: center;
+                display: $flex;
+                justify-content: center;
+                align-items: center;
+                color: $firstTitle;
+                margin-top: 69px;
+            }
+            p:last-of-type {
+                font-family: $poppins;
+                text-align: center;
+                display: $flex;
+                justify-content: center;
+                align-items: center;
+                color: $bluePrice;
+                font-weight: 600;
+                margin-top: 36px;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media(max-width: 879px) {
+    #ourPricing {
+        #allPackage {
+            justify-content: center;
+            align-self: center;
+        }
+    }
+}
+
+@media(max-width: 879px) {
+    #ourPricing {
+        #allPackage {
+            .package {
+                height: 600px;
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+header {
+    background-image: url(../../img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-bottom: 50px;
+    h3 {
+        color: $marketing;
+        font-size: 40px;
+        display: inline-block;
+        margin-left: 10px;
+        font-family: $poppins;
+        font-weight: $boldFont;
+    }
+    nav {
+        display: $flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: $marginLeft;
+        padding-right: 247px;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .navbar {
+        list-style-type: none;
+        display: $flex;
+        letter-spacing: normal;
+        font-family: $poppins;
+        li {
+            padding: 0 15px;
+            text-transform: uppercase;
+        }
+        a {
+            color: $whiteText;
+            text-decoration: none;
+        }
+    }
+}
+
+
+/*RESPONSIVE*/
+
+@media(max-width: 1075px) {
+    header {
+        nav {
+            padding-left: 75px;
+            padding-right: 125px;
+        }
+    }
+}
+
+@media(max-width: 879px) {
+    header {
+        background-size: 75%;
+        nav {
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+    }
+}
+
+@media(max-width: 600px) {
+    header {
+        .navbar {
+            display: block;
+            li {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media(max-width: 425px) {
+    header {
+        h3 {
+            font-size: 25px;
+        }
+    }
+}
