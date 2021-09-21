@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    border: none
 }
 
 *,
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    max-width: 1600px;
+    max-width: 1920px;
     line-height: 1.5;
     margin-left: auto;
     margin-right: auto;
@@ -50,6 +50,11 @@ select {
     font: inherit
 }
 
+img {
+    margin-bottom: 32px;
+    border-radius: 15px;
+}
+
 
 /* ================= ENDS ================ */
 
@@ -72,41 +77,46 @@ select {
 }
 
 body {
-    font-family: sans-serif;
-    background-color: #1f364d
+    background-color: #c2ffc2
 }
+
+h1,
+h2,
+h2 {
+    color: #008000;
+    letter-spacing: -2px;
+}
+
+
+/* Main heading */
 
 h1 {
-    font-size: 64px;
-    margin-bottom: 48px;
-    font-weight: normal;
-    letter-spacing: 4px;
-    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 1.1;
+    margin-bottom: 30px;
 }
+
+
+/* Small headings */
 
 h2 {
-    font-size: 26px;
-    margin-top: 30px;
-    margin-bottom: 4px;
-    letter-spacing: 1px;
-    color: deeppink;
-}
-
-h3 {
-    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.3;
     margin-top: 42px;
     margin-bottom: 4px;
-    letter-spacing: 1px;
-    color: lightgreen;
 }
+
+
+/* Text paragraphs */
 
 p {
-    font-size: 18px;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #011301;
     line-height: 1.6;
     margin-bottom: 20px;
-    color: #81b8cd;
-}
-
-a {
-    color: white
 }

@@ -53,6 +53,10 @@ select {
 
 /* ================= ENDS ================ */
 
+body {
+    background-color: lightcyan
+}
+
 
 /* Desktops */
 
@@ -77,16 +81,19 @@ h1 {
     font-weight: normal;
     letter-spacing: -2px;
     margin-bottom: 32px;
+    color: blue;
 }
 
 h2 {
     font-size: 36px;
     margin-bottom: 4px;
+    color: blue;
 }
 
 h3 {
     font-size: 24px;
     margin-bottom: 4px;
+    color: blue;
 }
 
 p {
@@ -94,4 +101,5 @@ p {
     font-family: sans-serif;
     line-height: 1.6;
     margin-bottom: 20px;
+    color: darkslateblue;
 }
